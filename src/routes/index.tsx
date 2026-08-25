@@ -42,19 +42,19 @@ function Index() {
       </h1>
 
       <p className="mt-5 max-w-lg text-lg text-muted-foreground md:text-xl">
-        Estamos construindo algo especial para você. Em breve, nosso novo site
-        estará no ar.
+        We are building something special for you. Our new website will be live
+        soon.
       </p>
 
       <div className="mt-12 flex items-center gap-4 rounded-full border border-border bg-card px-6 py-3 shadow-sm">
         <HardHatIcon className="h-6 w-6 text-primary" />
         <span className="text-sm font-medium text-card-foreground">
-          Site em construção — volte em breve
+          Site under construction — check back soon
         </span>
       </div>
 
       <footer className="mt-20 text-sm text-muted-foreground">
-        © {new Date().getFullYear()} Primus 360. Todos os direitos reservados.
+        © {new Date().getFullYear()} Primus 360. All rights reserved.
       </footer>
     </div>
   );
